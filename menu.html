@@ -2,18 +2,55 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Kimi Leipzig | Speisekarte</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Kimi Leipzig | Speisekarte</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #fefefe;
+      font-family: Arial, sans-serif;
+      color: #222;
+      text-align: center;
+    }
+    .container {
+      padding: 40px 20px;
+    }
+    img.logo {
+      max-width: 140px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 28px;
+      color: #800000;
+      margin-bottom: 5px;
+    }
+    .address {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    .menu-link {
+      display: inline-block;
+      font-size: 18px;
+      padding: 12px 24px;
+      background-color: #800000;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .menu-link:hover {
+      background-color: #a00000;
+    }
+  </style>
 </head>
 <body>
-    <div class="wrapper">
-        <img src="logo.jpeg" alt="Kimi Logo" class="logo">
-        <h1>Kimi Chinarestaurant</h1>
-        <p class="address">Universitätsstraße 16, 04109 Leipzig</p>
-        <p class="text">Unsere aktuelle Speisekarte finden Sie hier als PDF:</p>
-        <a class="pdf-link" href="Kimi-Speisekarte.pdf" target="_blank">📄 Hier klicken für die Speisekarte (PDF)</a>
-    </div>
+  <div class="container">
+    <img class="logo" src="logo.jpeg" alt="Kimi Logo">
+    <h1>Kimi 延边餐厅</h1>
+    <p class="address">Universitätsstraße 16, 04109 Leipzig</p>
+    <a class="menu-link" href="Kimi-Speisekarte.pdf" target="_blank">📄 Hier klicken für die Speisekarte (PDF)</a>
+  </div>
 </body>
 </html>
